@@ -1,0 +1,27 @@
+Paso a paso proyecto Java
+
+Ctrl+shift+P
+-abre barrita de búsqueda con el >
+Escribir en la barrita "new Java project"
+Enter
+Seleccionar la opción que diga "no bouilds tolds"
+Explorador - crear carpeta y seleccionarla
+En la barrita poner el nombre "contextoN"
+Click derecho, sobre src
+New file -> Class
+Creas de esta manera :
+Co.edu.poli.contexto.modelo.hola
+Click derecho, sobre src 
+New file -> class
+Co.edu.poli.contexto.vista.yei
+Src
+  Modelo
+   Hola. J
+      Package ruta del archivo modelo
+Public class hola 
+  Vista 
+    Yei. J
+Package ruta del archivo vista 
+
+Click derecho src New Java class 
+Muestra
