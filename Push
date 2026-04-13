@@ -1,0 +1,71 @@
+# 🚀 SUBIR PROYECTO A GITHUB DESDE CMD
+
+## 📌 1. Abrir CMD en la carpeta del proyecto
+
+(En la carpeta → escribir `cmd` en la barra de ruta)
+
+---
+
+## 📌 2. Inicializar repositorio
+
+git init
+
+---
+
+## 📌 3. Agregar todos los archivos
+
+git add .
+
+---
+
+## 📌 4. Hacer commit
+
+git commit -m "subo proyecto examen"
+
+---
+
+## 📌 5. Definir rama principal
+
+git branch -M main
+
+---
+
+## 📌 6. Conectar con GitHub
+
+git remote add origin URL_DEL_REPOSITORIO
+
+(Ejemplo:)
+git remote add origin https://github.com/usuario/repositorio.git
+
+---
+
+## 📌 7. Subir proyecto
+
+git push -u origin main
+
+---
+
+# ⚠️ SI SALE ERROR (muy común)
+
+## 🔴 Error: remote origin already exists
+
+git remote set-url origin URL_DEL_REPOSITORIO
+
+---
+
+## 🔴 Error: rejected (fetch first)
+
+git pull origin main --allow-unrelated-histories
+git push
+
+---
+
+## 🔴 Si nada funciona (PLAN B 🚀)
+
+👉 Subir archivo .zip directamente a GitHub
+
+---
+
+# ✅ FIN
+
+El proyecto debe aparecer en GitHub 🎉
